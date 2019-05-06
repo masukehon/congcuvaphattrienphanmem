@@ -1,6 +1,8 @@
-function add(a, b) {
-    const temp = a + b;
-    return temp;
+function add(a, b, c) {
+    let temp = a + b;
+    let sum = temp + c;
+
+    return sum;
 }
 
-console.log(add(5,6));
+console.log(add(5,6,7));
